@@ -1,0 +1,21 @@
+.profile {
+    min-width: 35rem;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    background-color: var(--dark-blue);
+
+    img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 30% ;
+    }
+
+    
+    .icon{
+        color: white;
+        cursor: pointer;
+        &:hover{
+            color: red;
+        }
+    }
+}
